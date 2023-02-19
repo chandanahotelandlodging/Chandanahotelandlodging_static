@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--scroll-padding, 50px);
+}
+
+.offer{
+    animation: animate 1.5s infinite;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+    50%{
+            opacity: 0.9;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.hero{
+    padding-top: 10%;
+    padding-bottom: 18%;
+}
+
+.hero h1{
+    font-family: 'Rubik Gemstones', cursive;
+    font-size: 4em;
+    color: white;
+
+}
+
+.hero p{
+    font-family: 'Segoe UI', serif;
+    font-size: 1.5em;
+    color: white;
+}
+
+.top{
+    background: rgba(0, 0, 0, 0.7) url("../images/front.jpeg") no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+
+.navbar-brand{
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.button-2{
+    padding-left: 1vw;
+}
+
+.abt-us{
+    display: flex;
+}
+
+.abt-us-img img{
+    height: 25em;
+
+}
+
+.abt-us-img{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abt-us-text {
+    width: 75%;
+    text-align: center;
+}
+
+.hid h1{
+    display: none;
+}
+
+.yciotp{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-size: cover;
+    background: rgba(0, 0, 0, 0.7) url("../images/galary4.jpeg") no-repeat fixed;
+    background-blend-mode: darken;
+}
+.yciotp-text h1{
+    font-family: "Aileron", sans-serif;
+    color: white;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+
+.gallery img{
+    width: 100%;
+}
+.cr-img img{
+    width: 7em;
+    height: 7em;
+    border-radius: 50%;
+}
+
+.cr-img{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.star{
+    display: flex;
+    justify-content: center;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.card-deck div{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.contact p{
+    text-align: center;
+}
+.contact-list li {
+    list-style: none
+}
+.contact-bottom{
+    display: flex;
+
+}
+.contact-items{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form{
+    width: 50%;
+}
+
+.contact-us-bg{
+
+    background-size: cover;
+    background: rgba(0, 0, 0, 0.7) url("../images/top.jpeg") no-repeat fixed;
+    background-blend-mode: darken;
+    padding-bottom: 1%;
+}
+
+.contact{
+    color:white;
+}
+.form-group h4 label{
+    color: black;
+}
+.contact-form {
+
+    background-color: white;
+    border-radius: 2%;
+    padding: 2vw;
+}
+
+@media (max-width: 1020px){
+    .hero{
+        font-size: 75%;
+    }
+}
+@media (max-width: 770px){
+    .hero{
+        font-size: 65%;
+    }
+}
+
+@media (max-width: 673px){
+    .hero h1{
+        font-size: 35px;
+    }
+    .yciotp-text h1{
+        font-size: 25px;
+    }
+}
+@media (max-width: 571px){
+    .hero h1{
+        font-size: 25px;
+    }
+}
+@media (max-width: 418px){
+    .hero h1{
+        font-size: 20px;
+    }
+    .hero p{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 431px){
+    .yciotp-text h1{
+        font-size: 15px;
+    }
+}
+@media (max-width: 994px){
+    .contact-bottom{
+        display: initial;
+    }
+    .contact-items{
+        width: 100%;
+    }
+    .contact-form {
+
+        width: 100%;
+    }
+}
+
+@media (max-width: 1287px){
+    .abt-us{
+        display: initial;
+    }
+    .abt-us-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+    }
+    .abt-us-text{
+        width: 100%;
+    }
+    .abt-us-text h1{
+        display: none;
+    }
+    .hid h1{
+        display: initial;
+    }
+}

@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="{% static 'style/style.css' %}"> -->
+    <link rel="stylesheet" href="./style/style.css">
+    <!-- <link rel="stylesheet" href="{% static 'style/lightbox.css' %}"> -->
+    <link rel="stylesheet" href="style/lightbox.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Chandana Hotel & Lodging</title>
+    <!-- <link rel="shortcut icon" href="{% static 'images/icon.jpg' %}"> -->
+    <link rel="shortcut icon" href="./images/icon.jpg">
+    <style>
+        @font-face {
+            font-family: "Aileron";
+            /* src: url('../static/fonts/Aileron-UltraLight.otf') format('opentype'); */
+            src: url('./fonts/Aileron-UltraLight.otf') format('opentype');
+        }
+    </style>
+</head>
+<body>
+<section class="top xyz" id="parallax">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-*"
+         style="background-color: rgba(0, 0, 0, 0.6);width: 100%; backdrop-filter: blur(8px); position: fixed; cursor: pointer;">
+        <a class="navbar-brand" href="index.html" style="font-family: 'Aileron', sans-serif; font-weight: 500;">Chandana
+            Hotel & Lodging</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto" style=" text-align: center;">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html#" style="font-family: 'Merriweather', serif;">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about" style="font-family: 'Merriweather', serif;">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallery" style="font-family: 'Merriweather', serif;">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#reviews" style="font-family: 'Merriweather', serif;">Customer Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactus" style="font-family: 'Merriweather', serif;">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hello-servlet" style="font-family: 'Merriweather', serif;">Book Now</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0" style="display: flex; justify-content: center;">
+                <div class="button-1" style="padding-left: 1vw;">
+                    <button type="button" class="btn btn-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                             class="bi bi-pen-fill" viewBox="0 0 16 16">
+                            <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001z"/>
+                        </svg>&nbsp;Register
+                    </button>
+                </div>
+                <div class="button-2">
+
+                    <button type="button" class="btn btn-info">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                             class="bi bi-key-fill" viewBox="0 0 16 16">
+                            <path d="M3.5 11.5a3.5 3.5 0 1 1 3.163-5H14L15.5 8 14 9.5l-1-1-1 1-1-1-1 1-1-1-1 1H6.663a3.5 3.5 0 0 1-3.163 2zM2.5 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                        </svg>&nbsp;Login
+                    </button>
+                </div>
+            </form>
+        </div>
+    </nav>
+    <div class="hero container-fluid" style="width: 100%">
+        <center>
+            <h1 data-aos="fade-out">Enjoy your stay with us</h1>
+            <p class="offer" data-aos="zoom-out" style="font-family: 'Merriweather', serif; color: yellow">15% off on
+                our Deluxe room for a limited period of time</p><br>
+            <button type="button" class="btn btn-warning" data-aos="fade-right">Book Now</button>
+        </center>
+    </div>
+
+</section>
+<hr>
+
+<section class="container-fluid xyz" id="about" style="width: 100%">
+    <div class="hid">
+        <center><h1 data-aos="fade-out" style="font-family: 'Aileron', sans-serif;">About Us</h1></center>
+        <br>
+    </div>
+    <div class="abt-us">
+        <div class="abt-us-img" data-aos="fade-up">
+            <!-- <img src="{% static 'images/floor.jpeg' %}" alt="img/floor.jpg"> -->
+            <img src="./images/floor.jpeg" alt="img/floor.jpg">
+        </div>
+        <div class="abt-us-text">
+            <h1 data-aos="fade-out" style="font-family: 'Aileron', sans-serif; font-weight: 100;">About Us</h1>
+            <p data-aos="fade-up" style="font-family: 'Merriweather', serif;">Situated in Cooch Behar, Chandana Hotel
+                and Lodging is located in one of the cities most popular
+                locations. Beside the world-famous Cooch Raj Bari, designed with LW Design Group LCC, the hotel
+                features 12 guestrooms and suites. This property is also home to multiple food and beverage
+                outlets.</p>
+            <strong data-aos="fade-up">Services provided by us:</strong><br><br>
+            <ul class="list-group list-group-flush" data-aos="fade-up">
+                <li class="list-group-item" style="font-family: 'Merriweather', serif;">Restaurant</li>
+                <li class="list-group-item" style="font-family: 'Merriweather', serif;">Room Service</li>
+                <li class="list-group-item" style="font-family: 'Merriweather', serif;">Laundry Service</li>
+                <li class="list-group-item" style="font-family: 'Merriweather', serif;">Direct Dialing Facility</li>
+                <li class="list-group-item" style="font-family: 'Merriweather', serif;">Travel Assistance</li>
+                <li class="list-group-item"></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<hr>
+
+
+<section class="yciotp" style="width: 100%;">
+    <div class="yciotp-div" data-aos="fade-up">
+        <div class="yciotp-text">
+            <center>
+                <h1 style="font-weight: 100;">Your comfort is our topmost priority</h1>
+                <br>
+                <button class="btn btn-outline-warning">Book Now</button>
+            </center>
+        </div>
+    </div>
+</section>
+<hr>
+
+<section class="container xyz" id="gallery">
+    <center><h1 data-aos="fade-out" style="font-family: 'Aileron', sans-serif;font-weight: 100;">Gallery</h1></center>
+    <br>
+    <div class="row" data-aos="fade-up">
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <!-- <a href="{% static 'images/front.jpeg' %}" data-lightbox="models" data-caption="Caption1"> -->
+            <a href="./images/front.jpeg" data-lightbox="models" data-caption="Caption1">
+                <!-- <img src="{% static 'images/front.jpeg' %}" class="w-100 shadow-1-strong rounded mb-4"/> -->
+                <img src="./images/front.jpeg" class="w-100 shadow-1-strong rounded mb-4"/>
+            </a>
+            <!-- <a href="{% static 'images/galary6.jpeg' %}" data-lightbox="models" data-caption="Caption1"> -->
+            <a href="./images/galary6.jpeg" data-lightbox="models" data-caption="Caption1">
+                <img src="./images/galary6.jpeg" class="w-100 shadow-1-strong rounded mb-4"/>
+            </a>
+
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+            <a href="./images/galary8.jpeg" data-lightbox="models" data-caption="Caption1">
+                <img src="./images/galary8.jpeg" class="w-100 shadow-1-strong rounded mb-4"/>
+            </a>
+            <a href="./images/galary1.jpeg" data-lightbox="models" data-caption="Caption1">
+                <img src="./images/galary1.jpeg" class="w-100 shadow-1-strong rounded mb-4"/>
+            </a>
+
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+            <a href="./images/delux1.jpeg" data-lightbox="models" data-caption="Caption1">
+                <img src="./images/delux1.jpeg" class="w-100 shadow-1-strong rounded mb-4"/>
+            </a>
+
+            <a href="./images/galary7.jpeg}" data-lightbox="models" data-caption="Caption1">
+                <img src="./images/galary7.jpeg" class="w-100 shadow-1-strong rounded mb-4"/>
+            </a>
+
+        </div>
+    </div>
+</section>
+<hr>
+
+<section class="customer-reviews xyz" id="reviews">
+    <div class="container-fluid" style="background-color: white;">
+        <center><h1 data-aos="fade-out" class="cr-heading" style="font-family: 'Aileron', sans-serif;font-weight: 100;">
+            Customer Reviews</h1></center>
+        <br>
+        <div class="card-deck" data-aos="fade-up">
+            <div class="card" style="width: 18rem;">
+                <div class="cr-img">
+                    <img src="./images/ArindamSir.jpg" class="card-img-top" alt="...">
+                </div>
+                <br>
+                <div class="star">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                         class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                         class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                         class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                         class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                         class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                </div>
+                <br>
+                <h3 style="padding: 0; margin:0; font-family: 'Merriweather', serif;">Arindam Ghosh</h3>
+                <div class="card-body" style="display: flex; align-items: center;justify-content: center;">
+                    <p class="card-text" style="font-family: 'Merriweather', serif;">The food and the services they
+                        provide is more valuable than the price they take, hygienic food and probably the best food and
+                        lodging service in Cooch Behar</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="cr-img">
+                    <img src="./images/sanchari.jpg" class="card-img-top " alt="...">
+                </div>
+                <br>
+                <div class="star">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                         class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                         class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                         class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                         class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                         class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                </div>
+                <br>
+                <h3 style="padding: 0; margin:0; font-family: 'Merriweather', serif;">Urmilla Rao</h3>
+                <div class="card-body" style="display: flex; align-items: center;justify-content: center;">
+                    <p class="card-text" style="font-family: 'Merriweather', serif;">I usually visit this hotel for
+                        Lunch,their food is the best in town,they are known for good service quality & authentic food.
+                        The place does not offer parking but a paid parking area is near. They have rooms also and they
+                        are good too.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="cr-img">
+                    <img src="./images/naveen.jpg" class="card-img-top" alt="...">
+                </div>
+                <br>
+                <div class="star">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                         class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                         class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                         class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                         class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                         class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                </div>
+                <br>
+                <h3 style="padding: 0; margin:0; font-family: 'Merriweather', serif;">Saatwik Sen</h3>
+                <div class="card-body" style="display: flex; align-items: center;justify-content: center;">
+                    <p class="card-text" style="font-family: 'Merriweather', serif;">The food is really very good,
+                        absolutely Bengali food, and the conversation is also great. I usually visit this hotel for
+                        Lunch,their food is the best in town,they are known for good service quality & authentic food.
+                        The hotel a crowded in lunch time so have some patience.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<hr>
+
+<section class="contact-us-bg xyz" id="contactus">
+    <div class="container">
+        <div class="contact">
+            <br>
+            <center><h1 data-aos="fade-up" style="font-family: 'Aileron', sans-serif;font-weight: 100;">Contact Us</h1>
+                <br>
+                <p data-aos="fade-out" style="font-family: 'Merriweather', serif;">
+                    We would like to hear from you. Please share your review or questions with us and our team will
+                    reach out to you at the earliest possible time.
+                </p>
+            </center>
+            <div class="contact-bottom">
+                <div class="contact-items">
+                    <ul class="contact-list" data-aos="fade-up">
+                        <li>
+                            <h3>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                     class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                          d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                </svg>&nbsp;Phone
+                            </h3>
+                            (+91) 7551063781 / 9735019857
+                        </li>
+                        <br><br>
+                        <li>
+                            <h3>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                     class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                                    <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"/>
+                                </svg>&nbsp;Address
+                            </h3>
+                            Raj Rajendra Narayan Road Near to Coochbehar Bus Stand, West Bengal 736101, Located near
+                            Mini Bus Stand
+                        </li>
+                        <br><br>
+                        <li>
+                            <h3>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                     class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                                </svg>&nbsp;Email
+                            </h3>
+                            ghosharindam195@gmail.com
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact-form">
+                    <!-- <form id="feedback-form" data-aos="zoom-out">
+                        <div class="form-group">
+                            <h4><label for="name">Name</label></h4>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Name Surname">
+                            <p id="nameLabel" class="text-danger" style="text-align: left; display: none;">&nbsp;Required!</p>
+                        </div>
+                        <div class="form-group">
+                            <h4><label for="from_email">Email address</label></h4>
+                            <input type="email" class="form-control" id="from_email" name="from_email"
+                                   placeholder="name@example.com">
+                            <p class="text-danger email-text" style="text-align: left; display: none;">&nbsp;Invalid
+                                Email</p>
+                            <p id="emailLabel" class="text-danger" style="text-align: left; display: none;">&nbsp;Required</p>
+                        </div>
+                        <div class="form-group">
+                            <h4><label for="QueryType">Query Type</label></h4>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="QueryType" id="Query" value="query">
+                                <label class="form-check-label text-dark" for="Query">Query</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="QueryType" id="Review"
+                                       value="review">
+                                <label class="form-check-label text-dark" for="Review">Review</label>
+                            </div>
+                            <br>
+                            <p id="queryTypeLabel" class="text-danger" style="text-align: left; display: none;">&nbsp;Required!</p>
+                        </div>
+                        <div class="form-group">
+                            <h4><label for="subject">Subject</label></h4>
+                            <input type="subject" class="form-control" id="subject" name="subject"
+                                   placeholder="Subject">
+                            <p id="subjectLabel" class="text-danger" style="text-align: left; display: none;">&nbsp;Required!</p>
+                        </div>
+
+                        <div class="form-group">
+                            <h4><label for="content">Write your Question or Review </label></h4>
+                            <textarea class="form-control" id="content" name="content" rows="5"
+                                      placeholder="Write Something Here..."></textarea>
+                            <p id="contentLabel" class="text-danger" style="text-align: left; display: none;">&nbsp;Required!</p>
+                        </div>
+                        <center>
+                            <button type="button" class="btn btn-info" id="submit_feedback">Submit</button>
+                        </center>
+                    </form> -->
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14303.661253192742!2d89.442071!3d26.3292416!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e2fe83f3c9719b%3A0xfe5b0bc467b82089!2sCHANDANA%20HOTEL%20%26%20LODGING!5e0!3m2!1sen!2sin!4v1676704838123!5m2!1sen!2sin" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="bg-dark">
+    <hr>
+    <center><strong style="color: lightgrey; font-family: 'Merriweather', serif;">&copy; - 2022 -
+        ChandanaHotelAndLodging - Privacy</strong></center>
+    <hr>
+</div>
+
+<!-- <script src="{% static 'script/app.js' %}"></script> -->
+<script src="./script/app.js"></script>
+<script src="./script/lightbox-plus-jquery.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+<!-- {#<%--Sweet alert CDN--%>#} -->
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<script>
+    AOS.init();
+    let x = document.querySelectorAll('.nav-item');
+    for (let i = 0; i < x.length; i++) {
+        x[i].addEventListener('click', function () {
+            x[i].classList.add('active')
+            for (let j = 0; j < x.length; j++) {
+                if (j === i) {
+                    continue;
+                } else {
+                    x[j].classList.remove('active');
+                }
+            }
+        });
+    }
+</script>
+
+
+<script>
+    $(document).ready(function () {
+        $("#submit_feedback").click(function () {
+            let name = $('#name').val();
+            let from_email = $('#from_email').val();
+            let subject = $('#subject').val();
+            let queryType = $('input[name="QueryType"]:checked').val();
+            let content = $('#content').val();
+            // Data Validation
+            if (name === "" || name == null) {
+                document.querySelector('#nameLabel').setAttribute('style', 'text-align: left; display: initial;');
+                document.querySelector('#contentLabel').setAttribute('style', 'text-align: left; display: none;');
+                document.querySelector('#queryTypeLabel').setAttribute('style', 'text-align: left; display: none;');
+                document.querySelector('#subjectLabel').setAttribute('style', 'text-align: left; display: none;');
+                document.querySelector('#emailLabel').setAttribute('style', 'text-align: left; display: none;');
+                document.querySelector('.email-text').setAttribute('style', 'text-align: left; display: none;');
+                return;
+            } else if (from_email === "" || from_email == null) {
+                document.querySelector('#emailLabel').setAttribute('style', 'text-align: left; display: initial;');
+                document.querySelector('#contentLabel').setAttribute('style', 'text-align: left; display: none;');
+                document.querySelector('#queryTypeLabel').setAttribute('style', 'text-align: left; display: none;');
+                document.querySelector('#subjectLabel').setAttribute('style', 'text-align: left; display: none;');
+                document.querySelector('#nameLabel').setAttribute('style', 'text-align: left; display: none;');
+                document.querySelector('.email-text').setAttribute('style', 'text-align: left; display: none;');
+                return;
+            } else if (from_email.indexOf('@') <= 0 || (from_email.charAt(from_email.length - 4) !== '.' && from_email.charAt(from_email.length - 3) !== '.')) {
+                document.querySelector('.email-text').setAttribute('style', 'text-align: left; display: initial;');
+                document.querySelector('#contentLabel').setAttribute('style', 'text-align: left; display: none;');
+                document.querySelector('#queryTypeLabel').setAttribute('style', 'text-align: left; display: none;');
+                document.querySelector('#subjectLabel').setAttribute('style', 'text-align: left; display: none;');
+                document.querySelector('#emailLabel').setAttribute('style', 'text-align: left; display: none;');
+                document.querySelector('#nameLabel').setAttribute('style', 'text-align: left; display: none;');
+                return;
+            } else if (queryType === "" || queryType == null) {
+                document.querySelector('#queryTypeLabel').setAttribute('style', 'text-align: left; display: initial;');
+                document.querySelector('#contentLabel').setAttribute('style', 'text-align: left; display: none;');
+                document.querySelector('#subjectLabel').setAttribute('style', 'text-align: left; display: none;');
+                document.querySelector('#emailLabel').setAttribute('style', 'text-align: left; display: none;');
+                document.querySelector('#nameLabel').setAttribute('style', 'text-align: left; display: none;');
+                document.querySelector('.email-text').setAttribute('style', 'text-align: left; display: none;');
+                return;
+            } else if (subject === "" || subject == null) {
+                document.querySelector('#subjectLabel').setAttribute('style', 'text-align: left; display: initial;');
+                document.querySelector('#contentLabel').setAttribute('style', 'text-align: left; display: none;');
+                document.querySelector('#queryTypeLabel').setAttribute('style', 'text-align: left; display: none;');
+                document.querySelector('#emailLabel').setAttribute('style', 'text-align: left; display: none;');
+                document.querySelector('#nameLabel').setAttribute('style', 'text-align: left; display: none;');
+                document.querySelector('.email-text').setAttribute('style', 'text-align: left; display: none;');
+                return;
+            } else if (content === "" || content == null) {
+                document.querySelector('#contentLabel').setAttribute('style', 'text-align: left; display: initial;');
+                document.querySelector('#queryTypeLabel').setAttribute('style', 'text-align: left; display: none;');
+                document.querySelector('#subjectLabel').setAttribute('style', 'text-align: left; display: none;');
+                document.querySelector('#emailLabel').setAttribute('style', 'text-align: left; display: none;');
+                document.querySelector('#nameLabel').setAttribute('style', 'text-align: left; display: none;');
+                document.querySelector('.email-text').setAttribute('style', 'text-align: left; display: none;');
+                return;
+            }
+            const d = {
+                'name': name,
+                'from_email': from_email,
+                'subject': subject,
+                'queryType': queryType,
+                'content': content,
+                csrfmiddlewaretoken: $('input[name=csrfmiddlewaretoken]').val(),
+            };
+            document.querySelector('#contentLabel').setAttribute('style', 'text-align: left; display: none;');
+            document.querySelector('#queryTypeLabel').setAttribute('style', 'text-align: left; display: none;');
+            document.querySelector('#subjectLabel').setAttribute('style', 'text-align: left; display: none;');
+            document.querySelector('#emailLabel').setAttribute('style', 'text-align: left; display: none;');
+            document.querySelector('#nameLabel').setAttribute('style', 'text-align: left; display: none;');
+            document.querySelector('.email-text').setAttribute('style', 'text-align: left; display: none;');
+            $.ajax({
+                type: "POST",
+                url: "/feedback/",
+                data: d,
+                success: function (data, textStatus, jqXHR) {
+                    if (data.trim() === "Failure") {
+                        $('#feedback-form').trigger('reset');
+                        swal({
+                            title: "Oops! Something went wrong",
+                            text: "Please try again!",
+                            icon: "error",
+                            button: "Close",
+                        });
+                    } else if (data.trim() === "query") {
+                        $('#feedback-form').trigger('reset');
+                        swal({
+                            title: "Thank you for your question",
+                            text: "We will get back to you as soon as possible",
+                            icon: "success",
+                            button: "Close",
+                        });
+                    } else if (data.trim() === "review") {
+                        $('#feedback-form').trigger('reset');
+                        swal({
+                            title: "Thank you for your feedback",
+                            text: "It will be taken into consideration",
+                            icon: "success",
+                            button: "Close",
+                        });
+                    }
+                },
+                error: function (data, textStatus, errorThrown) {
+                    console.log(data);
+                }
+            });
+        });
+    });
+</script>
+
+
+</body>
+</html>
