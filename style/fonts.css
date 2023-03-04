@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+
+@font-face {
+    font-family: "Aileron";
+    src: url('../fonts/Aileron-UltraLight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: "Merriweather";
+    src: url('../fonts/Merriweather-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "fanfarron";
+    src: url('../fonts/Fanfarron-rgvx8.ttf') format('truetype');
+}
+@font-face {
+    font-family: "hillstone";
+    src: url('../fonts/Hillstone-Bxd5.otf') format('opentype');
+}
+@font-face {
+    font-family: "silian";
+    src: url('../fonts/SilianCalligraphyBoldPersonalRegular-rg96y.otf') format('opentype');
+}

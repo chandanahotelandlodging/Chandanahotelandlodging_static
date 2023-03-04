@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--scroll-padding, 75px);
+}
+body{
+    overflow-x: hidden;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+}
+.button-2{
+    padding-left: 1vw;
+    /*padding-right: 1vw;*/
+}
+button{
+    font-family: 'Merriweather';
+}
+.top{
+    background: rgba(0, 0, 0, 0.7) url("../img/galary3.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+    background-size: cover;
+    background-blend-mode: darken;
+    width: 100%;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero h1{
+    font-family: 'Rubik Gemstones', cursive;
+    font-size: 4em;
+    color: white;
+
+}
+
+.content{
+    display: flex;
+}
+
+.sidebar{
+    width: 20%;
+    display: inline-block;
+    position: fixed;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    /* overflow: scroll; */
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+@media (max-width: 530px){
+    .hero{
+        font-size: small;
+    }
+}
+@media (max-width: 405px){
+    .hero{
+        font-size: x-small;
+    }
+}
+@media (max-width: 773px){
+    div.datpicker{
+        display: none !important;
+    }
+    .sidebar{
+        display: none;
+    }
+}
+@media (max-width: 1327px){
+    .sidebar{
+        width: 30%;
+    }
+    .cards{
+        width: 80%;
+    }
+    .card-deck{
+        display: flex;
+        flex-direction: column;
+    }
+}
